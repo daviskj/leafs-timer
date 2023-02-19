@@ -1,6 +1,4 @@
 import React, { Fragment } from "react";
-import './Clock.css';
-
 
 
 const Clock = ({ timerDays, timerHours, timerMinutes, timerSeconds }) => {

@@ -7,7 +7,7 @@ import "./components/footer/Footer.css"
 
 
 const App = () => {
-const [timerDays, setTimerDays] = useState();
+  const [timerDays, setTimerDays] = useState();
   const [timerHours, setTimerHours] = useState();
   const [timerMinutes, setTimerMinutes] = useState();
   const [timerSeconds, setTimerSeconds] = useState();
@@ -21,22 +21,17 @@ const [timerDays, setTimerDays] = useState();
       const now = new Date().getTime();
 
       const distance = now - countDownDate;
-
-      
-
       const days = Math.floor(distance / (24 * 60 * 60 * 1000));
       const hours = Math.floor(
           (distance % (24 * 60 * 60 * 1000)) / (1000 * 60 * 60)
       );
+      
       const minutes = Math.floor((distance % (60 * 60 * 1000)) / (1000 * 60));
       const seconds = Math.floor((distance % (60 * 1000)) / 1000);
 
       if (distance < 0) {
-        
-
         clearInterval(interval.current);
       } else {
-        
         setTimerDays(days);
         setTimerHours(hours);
         setTimerMinutes(minutes);
@@ -49,15 +44,12 @@ const [timerDays, setTimerDays] = useState();
     startTimer();
   });
 
-  
-
   return <div className="App">
     <Clock 
     timerDays = {timerDays}
     timerHours = {timerHours}
     timerMinutes = {timerMinutes}
     timerSeconds = {timerSeconds} />
-      
     <Footer />
   </div>;
 }
