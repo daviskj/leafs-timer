@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/leafs-timer/static/css/main.c7e07528.css",
+    "main.js": "/leafs-timer/static/js/main.faa50099.js",
+    "static/media/maple_leaf.png": "/leafs-timer/static/media/maple_leaf.98657396c4091a759e54.png",
+    "index.html": "/leafs-timer/index.html",
+    "main.c7e07528.css.map": "/leafs-timer/static/css/main.c7e07528.css.map",
+    "main.faa50099.js.map": "/leafs-timer/static/js/main.faa50099.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c7e07528.css",
+    "static/js/main.faa50099.js"
+  ]
+}
