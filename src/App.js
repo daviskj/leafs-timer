@@ -46,12 +46,8 @@ const App = () => {
     startTimer();
   });
 
-  return <BrowserRouter>
-  
-  <div className="App">
-  <Routes>
-  <Route path="/" element= {<Clock />} />
-  </Routes>
+  return   <div className="App">
+
     <Clock 
     timerDays = {timerDays}
     timerHours = {timerHours}
@@ -59,7 +55,7 @@ const App = () => {
     timerSeconds = {timerSeconds} />
     <Footer />
   </div>;
-  </BrowserRouter>
+  
 }
 
 export default App;
