@@ -1,6 +1,6 @@
 
 import "./App.css";
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+
   
 import React, {useState, useEffect} from "react";
 import Clock from "./components/clock/Clock.js";
