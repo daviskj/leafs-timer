@@ -19,20 +19,20 @@ const Footer = () =>{
                 
             <div className="icons">
             
-    <FacebookShareButton url={'sinceleafslastcup.netlify.app'}
+    <FacebookShareButton url={'sinceleafslastcup.com'}
                         quote='How long has it been?'>
     </FacebookShareButton>      
-         <FacebookShareButton url={'sinceleafslastcup.netlify.app'}
+         <FacebookShareButton url={'sinceleafslastcup.com'}
                         quote='How long has it been?'>
             <FacebookIcon size={40} round />
         </FacebookShareButton>
 
-        <TwitterShareButton url={'sinceleafslastcup.netlify.app'}
+        <TwitterShareButton url={'sinceleafslastcup.com'}
         quote='How long has it been?'>
         <TwitterIcon size={40} round />
         </TwitterShareButton>
 
-        <RedditShareButton url={'sinceleafslastcup.netlify.app'}
+        <RedditShareButton url={'sinceleafslastcup.com'}
         quote='How long has it been?'>
         <RedditIcon size={40} round />
         </RedditShareButton>
