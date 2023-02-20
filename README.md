@@ -1,5 +1,5 @@
 # SinceLeafsLastCup.com
-Count up timer created using React.
+Count up timer created using React.\
 The purpose of this timer is to display how much time has passed since a certain date.
 
 
