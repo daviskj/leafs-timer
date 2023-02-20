@@ -1,5 +1,7 @@
 
 import "./App.css";
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+  
 import React, {useState, useEffect} from "react";
 import Clock from "./components/clock/Clock.js";
 import Footer from "./components/footer/Footer.js";
@@ -44,7 +46,12 @@ const App = () => {
     startTimer();
   });
 
-  return <div className="App">
+  return <BrowserRouter>
+  
+  <div className="App">
+  <Routes>
+  <Route path="/" element= {<Clock />} />
+  </Routes>
     <Clock 
     timerDays = {timerDays}
     timerHours = {timerHours}
@@ -52,6 +59,7 @@ const App = () => {
     timerSeconds = {timerSeconds} />
     <Footer />
   </div>;
+  </BrowserRouter>
 }
 
 export default App;
