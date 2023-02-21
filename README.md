@@ -1,7 +1,9 @@
-# SinceLeafsLastCup.com
+# sinceleafslastcup.com
 Count-up timer created using React.\
 The purpose of this timer is to display how much time has passed since a given date.\
-[sinceleafslastcup.netlify.app](sinceleafslastcup.netlify.app)
+
+
+![img1](https://user-images.githubusercontent.com/98443655/220245985-225dc288-f33c-499a-ac2a-dcd53dca6459.JPG)
 
 
 
