@@ -4,7 +4,7 @@ The purpose of this timer is to display how much time has passed since a given d
 
 ### desktop view
 ![img1](https://user-images.githubusercontent.com/98443655/220245985-225dc288-f33c-499a-ac2a-dcd53dca6459.JPG)\
-\
+
 ### mobile
 ![img2](https://user-images.githubusercontent.com/98443655/220246084-2fd6a08d-93e1-4f36-8188-caba51da900d.JPG)
 
