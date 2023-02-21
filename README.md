@@ -10,7 +10,6 @@ The purpose of this timer is to display how much time has passed since a given d
 \
 \
 \
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
